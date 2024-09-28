@@ -1,9 +1,9 @@
-import './Header.css'
+import Style from "./Header.module.css"
 
 function Header() {
     return(
         <>
-            <div className="inicio">
+            <div className={Style.inicio}>
                 <h1>
                     Header
                 </h1>

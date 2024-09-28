@@ -1,12 +1,17 @@
 import Header from "./components/Header"
+import Meio from "./components/Meio"
+import Footer from "./components/Footer"
+import Azul from "./components/Azul"
 import "./App.css"
 function App() {
 
   return (
-    <div className="app">
+    <main>
       <Header/>
-      <Header/>
-    </div>
+      <Meio></Meio>
+      <Azul></Azul>
+      <Footer></Footer>
+    </main>
   )
 }
 
