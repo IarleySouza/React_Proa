@@ -4,3 +4,10 @@
     height: 250px;
     border-radius: 10px;
 }
+p {
+    color: #000;
+}
+.vermelho {
+    color: red;
+    font-weight: bold;
+}

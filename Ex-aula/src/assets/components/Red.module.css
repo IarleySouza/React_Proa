@@ -1,6 +1,22 @@
 .red {
- 
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 330px;
     background-color: brown;
+}
+.tex {
+
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    margin: 19px;
+}
+.red img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+h2 {
+    text-align: center;
+    margin: 30px;
+    color: #fff;
 }

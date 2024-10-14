@@ -1,10 +1,14 @@
 import Style from "./Branco.module.css"
-function Branco() {
-    return(
+function Branco({ foto, texto }) {
+    return (
         <>
-        <div className={Style.branco}>
-
-        </div>
+            <div className={Style.branco}>
+                <div>
+                    <img src={foto} alt="foto" />
+                </div>
+                <p> {texto} </p>
+                <p className={Style.vermelho} >R$ 989,50</p>
+            </div>
         </>
     )
 }

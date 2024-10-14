@@ -1,9 +1,9 @@
-import Header from "./components/Header"
-import Meio from "./components/Meio"
-import Footer from "./components/Footer"
-import Azul from "./components/Azul"
-import Laranja from "./components/Laranja"
-import Amarelo from "./components/Amarelo"
+import Header from "./assets/components/Header"
+import Meio from "./assets/components/Meio"
+import Footer from "./assets/components/Footer"
+import Azul from "./assets/components/Azul"
+import Laranja from "./assets/components/Laranja"
+import Amarelo from "./assets/components/Amarelo"
 import "./App.css"
 function App() {
 
@@ -12,8 +12,8 @@ function App() {
       <Header/>
       <Meio></Meio>
       <Azul></Azul>
-      <Laranja></Laranja>
       <Amarelo></Amarelo>
+      <Laranja></Laranja>
       <Footer></Footer>
     </main>
   )
