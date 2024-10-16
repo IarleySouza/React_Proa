@@ -10,3 +10,6 @@ main {
   height: auto;
 
 }
+body {
+  background: url(../src/assets/images/guitarra_fundo_body.jpg);
+}

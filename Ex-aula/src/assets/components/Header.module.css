@@ -17,3 +17,7 @@ a {
     color: #000;
     padding: 10px;
 }
+ul {
+    list-style-type: none;
+    display: flex;
+}
