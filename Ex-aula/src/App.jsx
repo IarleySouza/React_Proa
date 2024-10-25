@@ -19,7 +19,7 @@ function App() {
             <Route path="Contato" element={<Laranja/>}/>
             <Route path="Quem somos" element={<Meio/>}/>
         </Routes>
-        <Footer></Footer>
+        <Footer/>
       </Router>
     </main>
   )
